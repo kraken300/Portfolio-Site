@@ -28,7 +28,7 @@ const projectsData = [
     description: 'A personal portfolio website built using modern web technologies and fully responsive.',
     link: 'https://kraken300.github.io/Portfolio-Site/',
     github: 'https://github.com/kraken300/Portfolio-Site/',
-    image: '/Portfolio-Site/projects/portfolio.png',
+    image: '/Portfolio-Site/projects/portfolio_home.png',
   },
 ];
 
