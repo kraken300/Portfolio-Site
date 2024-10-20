@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <header className="bg-black text-white p-4 fixed w-full z-10">
       <div className="container mx-auto flex justify-between items-center">
-        <a href="#home" className="text-lg font-bold hover:text-purple-400 transition-all duration-300">Shivam's Portfolio</a>
+        <a href="#home" className="text-lg font-bold hover:text-purple-400 transition-all duration-300">🧑‍💻 Portfolio</a>
         <nav className="hidden md:flex space-x-4 gap-2">
           <a href="#about" className="flex items-center relative hover:text-purple-400 transition-all duration-300">
             <FaUser className="mr-1" /> About
