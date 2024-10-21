@@ -6,7 +6,7 @@ const Home = () => {
       id="home"
       className="flex items-center justify-center min-h-screen bg-black text-white px-8 md:px-16"
     >
-      <div className="w-full md:w-2/3 flex flex-col justify-center space-y-8 text-center mt-14">
+      <div className="w-full md:w-2/3 flex flex-col justify-center space-y-8 text-center lg:mt-14">
         <h1 className="text-4xl md:text-6xl font-bold animate-fade-in-down">
           Hey there! I'm <span className="effect-shine">Shivam Singh</span>
         </h1>
