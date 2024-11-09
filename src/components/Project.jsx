@@ -10,7 +10,7 @@ const projectsData = [
     image: '/Portfolio-Site/projects/countries.png',
   },
   {
-    title: 'MealsDB App',
+    title: 'MealDB App',
     description: 'A meal search app to explore global recipes using the MealsDB API, featuring a favorites save option.',
     link: 'https://mealsdb-api-react.onrender.com',
     github: 'https://github.com/kraken300/MealsDB-API-React',
