@@ -57,7 +57,7 @@ const Projects = () => {
                     href={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center text-purple-400 hover:underline"
+                    className="flex items-center text-emerald-400 hover:underline"
                   >
                     <FaEye className="mr-1" /> View Project
                   </a>
@@ -65,7 +65,7 @@ const Projects = () => {
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center text-purple-400 hover:underline"
+                    className="flex items-center text-emerald-400 hover:underline"
                   >
                     <FaGithub className="mr-1" /> GitHub
                   </a>

@@ -34,7 +34,7 @@ const Contact = () => {
                 name="name"
                 value={formData.name}
                 onChange={handleChange}
-                className="w-full p-3 rounded-lg bg-gray-700 border border-gray-600 text-white focus:outline-none focus:ring-2 focus:ring-purple-500 transition"
+                className="w-full p-3 rounded-lg bg-gray-700 border border-gray-600 text-white focus:outline-none focus:ring-2 focus:ring-emerald-500 transition"
                 required
               />
             </div>
@@ -46,7 +46,7 @@ const Contact = () => {
                 name="email"
                 value={formData.email}
                 onChange={handleChange}
-                className="w-full p-3 rounded-lg bg-gray-700 border border-gray-600 text-white focus:outline-none focus:ring-2 focus:ring-purple-500 transition"
+                className="w-full p-3 rounded-lg bg-gray-700 border border-gray-600 text-white focus:outline-none focus:ring-2 focus:ring-emerald-500 transition"
                 required
               />
             </div>
@@ -58,7 +58,7 @@ const Contact = () => {
                 value={formData.message}
                 onChange={handleChange}
                 rows="5"
-                className="w-full p-3 rounded-lg bg-gray-700 border border-gray-600 text-white focus:outline-none focus:ring-2 focus:ring-purple-500 transition"
+                className="w-full p-3 rounded-lg bg-gray-700 border border-gray-600 text-white focus:outline-none focus:ring-2 focus:ring-emerald-500 transition"
                 required
               ></textarea>
             </div>
@@ -66,7 +66,7 @@ const Contact = () => {
               <button
                 type="button"
                 onClick={handleMailTo}
-                className="bg-purple-500 text-white font-semibold py-2 px-6 rounded-lg hover:bg-purple-600 hover:scale-105 transition-transform duration-300"
+                className="bg-emerald-500 text-white font-semibold py-2 px-6 rounded-lg hover:bg-emerald-600 hover:scale-105 transition-transform duration-300"
               >
                 Send Message
               </button>

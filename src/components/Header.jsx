@@ -11,21 +11,21 @@ const Header = () => {
   return (
     <header className="bg-black text-white p-4 fixed w-full z-10">
       <div className="container mx-auto flex justify-between items-center">
-        <a href="#home" className="text-lg font-bold hover:text-purple-400 transition-all duration-300">🧑‍💻 Portfolio</a>
+        <a href="#home" className="text-lg font-bold hover:text-emerald-400 transition-all duration-300">🧑‍💻 Portfolio</a>
         <nav className="hidden md:flex space-x-4 gap-2">
-          <a href="#about" className="flex items-center relative hover:text-purple-400 transition-all duration-300">
+          <a href="#about" className="flex items-center relative hover:text-emerald-400 transition-all duration-300">
             <FaUser className="mr-1" /> About
           </a>
-          <a href="#projects" className="flex items-center relative hover:text-purple-400 transition-all duration-300">
+          <a href="#projects" className="flex items-center relative hover:text-emerald-400 transition-all duration-300">
             <FaClipboardList className="mr-1" /> Projects
           </a>
-          <a href="#skills" className="flex items-center relative hover:text-purple-400 transition-all duration-300">
+          <a href="#skills" className="flex items-center relative hover:text-emerald-400 transition-all duration-300">
             <FaCode className="mr-1" /> Skills
           </a>
-          <a href="#contact" className="flex items-center relative hover:text-purple-400 transition-all duration-300">
+          <a href="#contact" className="flex items-center relative hover:text-emerald-400 transition-all duration-300">
             <FaTools className="mr-1" /> Contact
           </a>
-          <a href="/Portfolio-Site/files/Resume.pdf" download className="flex items-center relative hover:text-purple-400 transition-all duration-300">
+          <a href="/Portfolio-Site/files/Resume.pdf" download className="flex items-center relative hover:text-emerald-400 transition-all duration-300">
             <FaDownload className="mr-1" /> Download Resume
           </a>
         </nav>
@@ -62,19 +62,19 @@ const Header = () => {
         className={`md:hidden bg-black overflow-hidden transition-all duration-500 ease-in-out ${isOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'}`}
       >
         <nav className="p-4 text-center flex flex-col items-center">
-          <a href="#about" className="flex items-center py-2 hover:text-purple-400">
+          <a href="#about" className="flex items-center py-2 hover:text-emerald-400">
             <FaUser className="mr-1" /> About
           </a>
-          <a href="#projects" className="flex items-center py-2 hover:text-purple-400">
+          <a href="#projects" className="flex items-center py-2 hover:text-emerald-400">
             <FaClipboardList className="mr-1" /> Projects
           </a>
-          <a href="#skills" className="flex items-center py-2 hover:text-purple-400">
+          <a href="#skills" className="flex items-center py-2 hover:text-emerald-400">
             <FaCode className="mr-1" /> Skills
           </a>
-          <a href="#contact" className="flex items-center py-2 hover:text-purple-400">
+          <a href="#contact" className="flex items-center py-2 hover:text-emerald-400">
             <FaTools className="mr-1" /> Contact
           </a>
-          <a href="/Portfolio-Site/files/Resume.pdf" download className="flex items-center py-2 hover:text-purple-400">
+          <a href="/Portfolio-Site/files/Resume.pdf" download className="flex items-center py-2 hover:text-emerald-400">
             <FaDownload className="mr-1" /> Download Resume
           </a>
         </nav>

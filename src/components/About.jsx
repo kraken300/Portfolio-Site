@@ -14,7 +14,7 @@ const About = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 animate-fade-in">
 
-          <div className="bg-gray-700 rounded-lg p-6 shadow-lg hover:bg-purple-700 transition duration-300">
+          <div className="bg-gray-700 rounded-lg p-6 shadow-lg hover:bg-red-700 transition duration-300">
             <div className="flex items-center mb-4">
               <FaUserAlt className="w-6 h-6 mr-2" />
               <h3 className="text-2xl md:text-3xl font-semibold">Who I Am</h3>
@@ -24,7 +24,7 @@ const About = () => {
             </p>
           </div>
 
-          <div className="bg-gray-700 rounded-lg p-6 shadow-lg hover:bg-purple-700 transition duration-300">
+          <div className="bg-gray-700 rounded-lg p-6 shadow-lg hover:bg-blue-700 transition duration-300">
             <div className="flex items-center mb-4">
               <FaLaptopCode className="w-6 h-6 mr-2" />
               <h3 className="text-2xl md:text-3xl font-semibold">My Interests</h3>
@@ -34,7 +34,7 @@ const About = () => {
             </p>
           </div>
 
-          <div className="bg-gray-700 rounded-lg p-6 shadow-lg hover:bg-purple-700 transition duration-300">
+          <div className="bg-gray-700 rounded-lg p-6 shadow-lg hover:bg-green-700 transition duration-300">
             <div className="flex items-center mb-4">
               <FaCode className="w-6 h-6 mr-2" />
               <h3 className="text-2xl md:text-3xl font-semibold">Working with APIs</h3>

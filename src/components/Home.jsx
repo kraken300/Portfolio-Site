@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaEnvelope, FaGithub } from 'react-icons/fa';
 
 const Home = () => {
   return (
@@ -16,13 +17,33 @@ const Home = () => {
         <p className="text-lg">
           Open to new opportunities and excited to learn and grow in a dynamic environment.
         </p>
+
         <div>
           <a
             href="/Portfolio-Site/files/Resume.pdf"
             download
-            className="inline-block bg-purple-500 text-white font-semibold py-2 px-6 rounded-lg hover:bg-purple-600 hover:scale-105 transition-transform duration-300"
+            className="inline-block bg-emerald-500 text-white font-semibold py-2 px-6 rounded-lg hover:bg-emerald-600 hover:scale-105 transition-transform duration-300"
           >
             Download Resume
+          </a>
+        </div>
+
+        <div className="flex justify-center space-x-8 mt-4">
+          <a
+            href="mailto:shivamsingh113355@gmail.com"
+            className="text-white text-2xl hover:text-emerald-400 transition-colors duration-300"
+            aria-label="Email"
+          >
+            <FaEnvelope />
+          </a>
+          <a
+            href="https://github.com/kraken300"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white text-2xl hover:text-emerald-400 transition-colors duration-300"
+            aria-label="GitHub"
+          >
+            <FaGithub />
           </a>
         </div>
       </div>

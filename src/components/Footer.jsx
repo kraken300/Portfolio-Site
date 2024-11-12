@@ -32,7 +32,7 @@ const Footer = () => {
         </div>
 
         <button
-          className="mt-4 text-purple-500 hover:text-purple-400 transition"
+          className="mt-4 text-emerald-500 hover:text-emerald-400 transition"
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
         >
           Back to Top
